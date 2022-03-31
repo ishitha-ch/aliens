@@ -20,10 +20,10 @@ function gotResult(error,results) {
         document.getElementById("result_label").style.color="rgb("+randomnumber_r+","+randomnumber_g+","+randomnumber_b+")";
         document.getElementById("result_confidence").style.color="rgb("+randomnumber_r+","+randomnumber_g+","+randomnumber_b+")";
 
-        alien1=document.getElementById("alienl");
-        alien2=document.getElementById("alien2");
-        alien3=document.getElementById("alien3");
-        alien4=document.getElementById("alien4");
+        alien1=document.getElementById("imagel");
+        alien2=document.getElementById("image2");
+        alien3=document.getElementById("image3");
+        alien4=document.getElementById("image4");
         
         if(results[0].label=="Clap") {
             alien1.src="aliens-01.gif";
